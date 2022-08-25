@@ -27,7 +27,7 @@ a{
 }
 
 .description p{
-  height: 5rem;
+  height: 15rem;
 }
 
 #image1{
@@ -64,10 +64,38 @@ a{
     padding-right: 2rem;
     margin-right: 2rem;
 } 
-
 .profile{
     display: flex;
 }
 .profile p{
     width:50%
+}
+
+.languages h2{
+    border-right: 0.2rem solid black;
+    padding-right: 2rem;
+    margin-right: 2rem;
+} 
+.languages{
+    display: flex;
+}
+.languages p{
+    width:50%;
+}
+
+.strengths{
+    background-color: pink;
+}
+.strengths feBlend{
+    font-display: black;
+}
+.strengths p {
+    color:black;
+}
+
+.programer{
+    display: flex;
+}
+.programer{
+    background-color: pink;
 }
