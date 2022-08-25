@@ -1,10 +1,73 @@
 .test{
     color: blue;
 }
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+/* .nav a{
+float: right; 
+}  */
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
 .division{
     width: 40%; 
     margin-left: 80px;    
 }
-.parent{
+.parent{ 
     display: flex;
+    justify-content: space-evenly;
+}
+.description{
+    width: 30%;
+}
+
+.description p{
+  height: 5rem;
+}
+
+#image1{
+    height: 8rem;
+    padding: 1rem;
+    margin: 3rem;
+    border: 2rem rgb(128, 9, 9) solid; 
+}
+#image2{
+    height: 8rem;
+    padding: 1rem;
+    margin: 3rem;
+    border: 2rem rgb(128, 9, 9) solid;
+}
+#image3{
+    height: 8rem;
+    padding: 1rem;
+    margin: 3rem;
+    border: 2rem rgb(128, 9, 9) solid;
+}
+
+
+ /* Resume.html*/ 
+ .skills ul li{
+    list-style-type: none;
+ }
+
+ .skills{ 
+    background-color: pink;
+}
+
+.profile h2{
+    border-right: 0.2rem solid black;
+    padding-right: 2rem;
+    margin-right: 2rem;
+} 
+
+.profile{
+    display: flex;
+}
+.profile p{
+    width:50%
 }
