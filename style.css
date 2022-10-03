@@ -9,6 +9,10 @@
 /* .nav a{
 float: right; 
 }  */
+h3 a{
+    text-decoration: none;
+    color: blueviolet;
+}
 a{
     text-decoration: none;
     color: blueviolet;
@@ -29,6 +33,11 @@ a{
 .description p{
   height: 15rem;
 }
+/* .description img{
+    height: 2px;
+    padding: 1rem;
+    margin: 1rem;
+    /* border: 2rem rgb(128, 9, 9) solid;  */
 
 #image1{
     height: 8rem;
