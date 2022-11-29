@@ -4,15 +4,21 @@
 .nav{
     display: flex;
     justify-content: space-evenly;
-  
+    height: 4rem;
+    background-color: rgb(89, 89, 198);
 }
-/* .nav a{
-float: right; 
-}  */
+.nav a{
+
+    color: white;
+    padding-top: 1.5rem;
+    text-decoration: none;
+} 
+
 h3 a{
     text-decoration: none;
     color: blueviolet;
 }
+
 a{
     text-decoration: none;
     color: blueviolet;
@@ -40,19 +46,19 @@ a{
     /* border: 2rem rgb(128, 9, 9) solid;  */
 
 #image1{
-    height: 8rem;
+    height: 12rem;
     padding: 1rem;
     margin: 3rem;
     border: 2rem rgb(128, 9, 9) solid; 
 }
 #image2{
-    height: 8rem;
+    height: 12rem;
     padding: 1rem;
     margin: 3rem;
     border: 2rem rgb(128, 9, 9) solid;
 }
 #image3{
-    height: 8rem;
+    height: 12rem;
     padding: 1rem;
     margin: 3rem;
     border: 2rem rgb(128, 9, 9) solid;
